@@ -1,0 +1,1 @@
+UPDATE `autwork`.`ty_settori` SET `nome` = 'Tessile, abbigliamento, calzaturiero e della moda' WHERE (`id` = '15');
