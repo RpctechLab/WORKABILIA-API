@@ -15,6 +15,7 @@
 	<name>workabilia</name>
 	<description>Workabilia</description>
 	<properties>
+		<name.build>workabilia</name.build>
 		<java.version>17</java.version>
 	</properties>
 	<dependencies>
@@ -66,6 +67,7 @@
 	</dependencies>
 
 	<build>
+		<finalName>${name.build}</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
